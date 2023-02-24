@@ -64,10 +64,10 @@ class twentyfour {
             hm.add(t2);
         }
         if(count>count2){
-            op.append("Team1 winner");
+            sb.append("Team1 winner");
         }
         else{
-            op.append("Team2 winner");
+            sb.append("Team2 winner");
         }
         op.write(sb.toString());
         op.close();
